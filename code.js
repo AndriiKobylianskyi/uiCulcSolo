@@ -137,10 +137,13 @@ document.addEventListener(("DOMContentLoaded"), () => {
                     firstOperand = +firstOperand * +secondOperand
                     break;
                 case '/':
-                    firstOperand = +firstOperand / +secondOperandg
+                    if (secondOperand === `0`) { 
+                        firstOperand = "Помилка" 
+                    } else{
+                        firstOperand = +firstOperand / +secondOperand
                     break;
+                    }
             }
-
             if (firstOperand === 0) secondOperand = 0
 
             out.textContent = firstOperand
