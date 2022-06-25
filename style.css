@@ -1,0 +1,59 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 16px 0 0 0;
+    border-radius: 24px;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    height: 72px;
+}
+
+.container {
+    width: 364px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.out {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 300;
+}
+
+.culc-wrapper {
+    padding: 25px 0;
+    width: 324px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cBtn {
+    width: 153.33px;
+    background: #4e505f;
+}
+
+.digit, .bSpaceBtn, .dat {
+    width: 69px;
+    background: #2e2f38;
+}
+.zeroBtn {
+    width: 153.33px;
+}
+
+.operator {
+    width: 69px;
+    background: #4b5efc;
+}
